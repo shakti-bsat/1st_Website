@@ -1,0 +1,201 @@
+#para1{
+    border: 4px solid black;
+}   
+
+#nav{
+    display: flex;
+justify-content: space-around;
+}
+
+#design{
+    font-size:40px;
+    font-family: Georgia;
+    color: #2E5266FF;
+}
+
+
+.boat{
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+ }
+.font{
+    position: relative;
+    display: inline-block;
+    
+ }
+
+
+.font-drop {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;                          /*z-index it is used for positioning the text in front or behind the pic */
+ }
+  
+.font-drop a {
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+ }
+.font-drop a:hover {background-color:#ddd;}
+.font:hover .font-drop {display:grid;}
+.font:hover .boat {background-color: #669DB3FF;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* THiS IS FOR LOGIN */
+.button {
+    background-color:#D9B48FFF;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: monospace;
+    color: white;
+    padding: 20px;
+    margin-left: 10px;
+    text-align: center;
+    cursor: pointer;
+    opacity:0.9;
+    border-radius: 16px;
+
+    }
+
+
+.button:hover {
+    box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.74);
+}
+
+
+
+
+
+.model{
+    display:none;
+    position:fixed;
+    z-index:1;
+    width:100%;
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: peachpuff;
+    padding-top: 50px;
+}
+
+
+
+
+.modal-content{                      /* Description of Box*/
+    background-color: #2E5266FF;
+    margin:auto;
+    border:10px black;
+    width:800px;
+}
+
+
+
+.box{
+    padding:30px;
+}
+
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+
+
+
+  .icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+
+  body {margin:0;height:2000px;}
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .content {
+    margin-left: 75px;
+    font-size: 30px;
+  }
+
+
+/*.close{                         /*close button
+    position: absolute;
+    right:25px;
+    top:10;
+    font-size:70px;
+    font-weight: bolder;
+    color: #6E8898FF;
+}
+
+
+close:hover,                    /*change of color
+.close:focus{
+    color: #2E5266FF;
+}
+*/
+
